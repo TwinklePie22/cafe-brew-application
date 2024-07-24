@@ -19,7 +19,7 @@ public class EmailUtils {
         try{
             MimeMessage message = emailSender.createMimeMessage();
             MimeMessageHelper helper = new MimeMessageHelper(message, true);
-            helper.setFrom("yuktasingh2004@gmail.com");
+            helper.setFrom("from-email@gmail.com"); // add a real email id of the sender
             helper.setTo(to);
             helper.setSubject(subject);
             message.setContent(text, "text/html");
