@@ -12,7 +12,6 @@ The Cafe Brew Application is a Java-based application designed to streamline the
 ## Technologies Used
 - Java
 - Spring Boot
-- Hibernate
 - JPA
 - MySQL
 - Maven
