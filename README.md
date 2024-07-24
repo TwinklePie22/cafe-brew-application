@@ -1,5 +1,4 @@
 Cafe Brew Application
-Project Description
 The Cafe Brew Application is a Java-based application designed to streamline the operations of a cafe. It offers functionalities for managing products, categories, bills, user authentication, and a dashboard to monitor various aspects of the cafe's operations.
 
 Features
