@@ -10,7 +10,9 @@ The Cafe Brew Application is a Java-based application designed to streamline the
 5. **Dashboard:** View the cafe's performance statistics and reports.
 
 ## Technologies Used
-- Java
+- Node Js
+- Next Js
+- REST APIs
 - Spring Boot
 - JPA
 - MySQL
@@ -23,9 +25,9 @@ The Cafe Brew Application is a Java-based application designed to streamline the
 - MySQL
 - Maven
 - Postman
-
+<!-- 
 ### Clone the repository:
-git clone https://github.com/phoenixA380/cafe-brew.git
+git clone https://github.com/phoenixA380/cafe-brew.git -->
 
 
 ### Configure the database:
@@ -36,6 +38,26 @@ spring.datasource.url=jdbc:mysql://localhost:3306/cafe
 spring.datasource.username=yourusername
 spring.datasource.password=yourpassword
 
+### Set up a new Next.js project
+
+npx create-next-app@latest cafe-management --typescript
+
+
+### Install additional dependencies
+
+npm install @radix-ui/react-icons lucide-react @radix-ui/react-label @radix-ui/react-slot @radix-ui/react-separator @radix-ui/react-dropdown-menu class-variance-authority clsx tailwind-merge
+
+
+### Build the project:
+
+npm run build
+
+
+### Run the application:
+
+npm run dev
+
+
 
 ### Build the project:
 
@@ -45,6 +67,19 @@ mvn clean install
 ### Run the application:
 
 mvn spring-boot:run
+
+
+### Set up UI components
+
+Create a `components/ui` folder and add the following files:
+
+1. `components/ui/button.tsx`
+2. `components/ui/card.tsx`
+3. `components/ui/input.tsx`
+4. `components/ui/label.tsx`
+5. `components/ui/table.tsx`
+6. `components/ui/separator.tsx`
+7. `components/ui/dropdown-menu.tsx`
 
 
 ## Access the application
@@ -66,7 +101,7 @@ mvn spring-boot:run
 - **Delete Category:** `DELETE /api/category/{id}`
 - **Generate Bill:** `POST /api/bill`
 - **Get All Bills:** `GET /api/bill`
-
+<!-- 
 ## Contact Information
 **Email:** sanjusanjeev2014@gmail.com  
-**GitHub:** [PhoenixA380](https://github.com/phoenixA380)
+**GitHub:** [PhoenixA380](https://github.com/phoenixA380) -->
